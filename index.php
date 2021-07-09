@@ -11,6 +11,17 @@
     $cpu-> setUser("Luigi", "Franco", "35", "42", "premium");
     var_dump( $cpu);
 
+    $gpu = new Product("gpu", "decrition_gpu" , 90, 17) ;
+    $gpu-> setCategories("Componenti");
+    $gpu-> setUser("Luca", "Franco", "45", "43", "premium");
+    var_dump( $gpu);
+
+    $heatsink = new Product("heatsink", "decrition_heatsink" , 180, 18) ;
+    $heatsink-> setCategories("Componenti");
+    $heatsink-> setUser("Luigi", "Di Pietro", "18", "44", "premium");
+    var_dump( $heatsink);
+    
+
 ; ?>
 
 <!DOCTYPE html>
